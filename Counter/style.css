@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(69, 168, 185);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  overflow: none;
+}
+
+.counter-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-body h1 {
+  text-transform: uppercase;
+}
+
+#countNumber {
+  font-size: 100px;
+}
+
+#decrease {
+  border: none;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#decrease:hover {
+  background-color: rgb(219, 0, 0);
+}
+
+#reset {
+  border: none;
+  background-color: rgb(138, 190, 216);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: rgb(114, 158, 180);
+}
+
+#increase {
+  border: none;
+  background-color: rgb(61, 147, 53);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+
+#increase:hover {
+  background-color: rgb(54, 135, 47);
+}
